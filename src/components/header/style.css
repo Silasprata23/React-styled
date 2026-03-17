@@ -1,0 +1,24 @@
+nav{
+display: flex;
+flex-direction: row;
+gap: 20px;
+background: black;
+align-items: center;
+justify-content: center;
+}
+nav>.logo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+}

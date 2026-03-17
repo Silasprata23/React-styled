@@ -1,0 +1,45 @@
+/* 1. Use um modelo de caixa mais intuitivo */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remova margens padrão de tudo */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Evite que imagens transbordem e fiquem distorcidas */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 4. Remova estilos de lista (opcional, mas muito comum) */
+ul, ol {
+  list-style: none;
+}
+
+/* 5. Melhore a renderização de fontes e acessibilidade do formulário */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 6. Evite que o texto transborde em elementos pequenos */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 7. Altura total da página para layouts modernos (como Flexbox/Grid) */
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+*{ 
+  text-decoration: none;
+}
