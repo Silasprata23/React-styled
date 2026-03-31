@@ -1,18 +1,12 @@
 import React from "react"
-import Navbar from "./components/header/header"
+import Header from "./components/header"
+
 export default function App (){
   
   
   return(
     <React.Fragment>
-      <Navbar/>
-
-
-      
-
-
-
-
+      <Header/>
     </React.Fragment>
   )
 }

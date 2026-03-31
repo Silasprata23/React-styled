@@ -1,24 +1,27 @@
-nav{
-display: flex;
-flex-direction: row;
-gap: 20px;
-background: black;
-align-items: center;
-justify-content: center;
-}
-nav>.logo{
+.header {
     display: flex;
     flex-direction: row;
-    color: white;
+    margin-top: 30px;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    font-size: 25px;
 }
-nav>ul{
+
+.buttonsList{
+    margin-left: 132px;
+    margin-right: 509px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    color: white;
-    
+    gap: 40px;
+}
+
+.list_a{
+    display: flex;
+    gap: 60px;
+}
+
+.icons{
+    margin-left: 133px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
