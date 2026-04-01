@@ -5,6 +5,7 @@
 
 /* 2. Remova margens padrão de tudo */
 * {
+  border: none;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +17,7 @@ img, picture, video, canvas, svg {
 }
 
 /* 4. Remova estilos de lista (opcional, mas muito comum) */
-ul, ol {
+ul, ol, summary{
   list-style: none;
 }
 
@@ -42,4 +43,8 @@ body {
 
 *{ 
   text-decoration: none;
+}
+
+button {
+  background: none;
 }

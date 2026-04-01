@@ -1,12 +1,14 @@
 import React from "react"
-import Header from "./components/header"
+import PageHome from "./pages/pageHome.jsx";
+import Search from "./components/search/index.jsx";
 
 export default function App (){
-  
-  
+
+
   return(
     <React.Fragment>
-      <Header/>
+        <PageHome />
+
     </React.Fragment>
   )
 }
